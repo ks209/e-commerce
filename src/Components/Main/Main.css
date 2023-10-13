@@ -1,0 +1,11 @@
+.main{
+    background-image: url(../../Assets/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    background-repeat: repeat-y;
+    background-color: rgba(113, 0, 200, 0.5);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    padding: 20px;
+    gap: 20px;
+}

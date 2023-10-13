@@ -1,0 +1,84 @@
+/* Common styles for .nav and related elements */
+.nav {
+    display: flex;
+    width: 100vw;
+    flex-grow: 1;
+  }
+  
+  #logo {
+    height: 8vh;
+  }
+  
+  #header-logo {
+    font-size: 2.4vw;
+    color: #f9faf8;
+    padding: 30px 200px;
+    font-weight: 800;
+  }
+  
+  #list > li > a {
+    font-size: 1.4vw;
+    color: #E5E7EB;
+    text-decoration: none;
+  }
+  
+  #list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
+  
+  #list > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .links, .logo {
+    width: 49%;
+    padding: 20px 10px;
+  }
+  
+  .upper {
+    background-color: #1f2937;
+    width: 100vw;
+  }
+  
+  /* Media query for screens smaller than 600px */
+  @media (max-width: 600px) {
+    #logo {
+      height: 10vh;
+      width: auto;
+      padding: 0.1vh 1vw;
+    }
+
+    #list > li > a {
+        font-size: 2vw;
+        color: #E5E7EB;
+        text-decoration: none;
+        padding: 5px ;
+      }
+  
+    .nav {
+      align-items: center;
+      gap: 10px;
+    }
+
+    .lo{
+        margin-right: 2px;
+    }
+  }
+  
+  /* Media query for screens between 600px and 900px */
+  @media (min-width: 601px) and (max-width: 900px) {
+    /* Adjust styles as needed */
+  }
+  
+  /* Media query for screens larger than 1200px */
+  @media (min-width: 1201px) {
+    /* Adjust styles as needed */
+  }
+  

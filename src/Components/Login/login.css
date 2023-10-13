@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+*{
+    font-family:'neucha';
+    letter-spacing: 1.5px;
+}
+
+.login{
+    min-height: 100vh;
+    background: url("../../Assets/wallpaperflare.com_wallpaper\ \(6\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-box{
+    height: 50vh;
+    width: 30vw;
+    color: whitesmoke;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+
+}
+
+.checkbox{
+    display: flex;
+}
+
+input{
+    width: 70%;
+    background-color: transparent;
+    height: 3vh;
+    margin-top: 10%;    
+    border: solid rgb(255, 255, 255) 1px;
+    color: azure;
+    padding: 10px;
+}
+
+.checkbox{
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.checkbox>input{
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    
+}
+
+button{
+    color: aliceblue;
+    width: 60%;
+    height: 10vh;
+    align-self: center;
+    background-color: transparent;
+    box-shadow: none;
+    border: solid rgb(255, 255, 255) 1px;
+    padding: 10px 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: 70%;
+}
+
+@media (max-width: 600px) {
+    .login-box{
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+
+}
+
+/* Styles for screens between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+}
+
+/* Styles for screens larger than 1200px) */
+@media (min-width: 1200px) {
+    
+
+}

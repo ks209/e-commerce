@@ -1,0 +1,37 @@
+.c{
+    transform: translateX(50%);  
+}
+
+.cart-page{
+    background-image: url(../../Assets/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    background-repeat: repeat-y;
+    background-color: rgba(113, 0, 200, 0.5);
+    background-blend-mode: multiply;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90vh;
+}
+
+.t{
+  background-color: grey;
+  padding: 20px 200px;
+  display: flex;
+  gap: 80%;
+}
+
+@media (max-width: 600px) {
+    .t{
+        margin-left: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .t{
+        margin-left: 0;
+        padding: 20px;
+        gap:0%;
+    }
+}

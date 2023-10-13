@@ -1,0 +1,100 @@
+
+
+.container {
+    padding: 20px;
+    border: 5px solid #000000;
+    background-image: url(../../Assets/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+  }
+
+  .order-summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container h1{
+    font-size: 3vw;
+  }
+
+  .container h2{
+    font-size: 2vw;
+  }
+
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    max-width: 300px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .container button {
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .totalPrice {
+    font-weight: bold;
+    font-size: 1vw;
+    color: rgb(174, 231, 174);
+  }
+
+  table {
+    border-collapse: separate;
+    border-spacing: 10px; /* Adjust this value to set the gap size */
+  }
+  
+  th, td {
+    padding: 10px; /* Adjust this value to set the cell padding */
+    border: 1px solid rgb(255, 255, 255); /* Border for the cells */
+  }
+
+  th{
+    background-color: aliceblue;
+    color: #000000;
+    opacity: 0.5;
+  }
+  
+  .pi{
+padding: 20px;
+  }
+
+  .pi form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .pi textarea, select{
+    background-color: transparent;
+  }
+
+  .pi label{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+  }
