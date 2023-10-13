@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+TotalityCorp Frontend Challenge
+This project is my submission for the TotalityCorp Frontend Challenge, which involves creating an intermediate-level e-commerce website using React and other relevant libraries.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Overview
+Features
+Tech Stack
+Setup and Installation
+Usage
+Deployment
+Acknowledgments
+License
+Overview
+This e-commerce website replicates a shopping site, including features like product listing, cart management, and checkout. It provides a variety of products, allows users to sort and filter them, manage a shopping cart, and proceed to checkout. The website is designed to be responsive and works seamlessly on both desktop and mobile devices.
 
-## Available Scripts
+Features
+Product Listing:
+Display a variety of products with images, names, prices, and "Add to Cart" buttons. Implement filters to allow users to sort products by category, price range, or ratings.
 
-In the project directory, you can run:
+Shopping Cart:
+Implement a cart section to display the added products, quantities, and total cost. Allow users to increase, decrease, or remove items from the cart. Display real-time updates of the cart total and item count.
 
-### `npm start`
+Checkout:
+Implement a checkout process that calculates the total cost of items in the cart. Allow users to enter shipping information and payment details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive Design:
+Ensure the website is responsive and works seamlessly on both desktop and mobile devices. Optimize the layout for different screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+User Authentication (Additional Challenge - Optional):
+Provide user registration and login functionalities. Display the user's name and avatar when logged in.
 
-### `npm test`
+Tech Stack
+React: JavaScript library for building user interfaces
+React Router DOM: Declarative routing for React.js
+React Redux: State management for React applications
+Redux Toolkit: Official, opinionated, batteries-included toolset for efficient Redux development
+Setup and Installation
+Clone the repository: git clone https://github.com/your-username/totalitycorp-frontend-challenge.git
+Install dependencies: npm install
+Start the development server: npm start
+Usage
+Access the application through the provided URL after the deployment.
+Explore the product listings, add items to the cart, and proceed to checkout.
+Use the implemented features like sorting, filtering, and cart management.
+Deployment
+The application has been deployed using Vercel . You can access it here https://e-commerce-sand-ten.vercel.app/.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgments
+Special thanks to TotalityCorp for providing this opportunity to showcase my skills and contribute to this challenge.
